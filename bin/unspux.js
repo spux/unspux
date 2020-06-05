@@ -17,7 +17,10 @@ data.inputURI = argv._[0] || data.inputURI
 // console.error(`reading file ${data.inputURI}`)
 data.input = fs.readFileSync(data.inputURI).toString()
 
-data.input = data.input.replace(/^[\s\S]*script.*module[^>]*>.*[\n]/gi, '')
+data.input = data.input.replace(
+  /^[\s\S]*script.*type="application[^>]*>.*[\n]/gi,
+  ''
+)
 data.input = data.input.replace(/\n.*<\/script.*[\s\S]*$/gi, '')
 
 console.log(data.input)
