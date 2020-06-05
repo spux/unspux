@@ -1,0 +1,32 @@
+{
+  "name": "unspux",
+  "version": "0.0.1",
+  "description": "single page user experience",
+  "main": "index.js",
+  "module": "web_modules/unspux.js",
+  "bin": {
+    "unspux": "bin/unspux.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spux/unspux.git"
+  },
+  "keywords": [
+    "spux"
+  ],
+  "author": "Melvin Carvalho <https://melvincarvalho.com/#me> (melvincarvalho@gmail.com)",
+  "bugs": {
+    "url": "https://github.com/spux/unspux/issues"
+  },
+  "homepage": "https://github.com/spux/unspux#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "htm": "^3.0.4",
+    "minimist": "^1.2.5",
+    "preact": "^10.4.1",
+    "shelljs": "^0.8.4"
+  }
+}
