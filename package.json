@@ -1,6 +1,6 @@
 {
   "name": "unspux",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "single page user experience",
   "main": "index.js",
   "module": "web_modules/unspux.js",
